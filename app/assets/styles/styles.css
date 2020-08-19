@@ -1,15 +1,2 @@
-body {
-  font-family: "roboto", sans-serif;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-$mainBlue: #333;
-.large-hero {
-  h2 {
-    color: $mainBlue;
-  }
-}
+@import "base/_global";
+@import "modules/_large-hero";
